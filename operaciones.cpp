@@ -1,12 +1,16 @@
 #include<iostream>
 using namespace std;
-main(){
-    //validar datos de ingreso
-
-    int n;
+int validanumero(){
+    //proceso de validacion
+    int numero;
     do{
-        cout<<"Ingrese un numero: ";
-        cin>>n;
-    }while(n<1 || n>10);
+        cout<<"Ingrese el numero: ";
+        cin>>numero;
+    }while(numero<1 || numero>10);
+    return numero;
+}
+main(){
+    int n = validanumero();
+
 
 }
