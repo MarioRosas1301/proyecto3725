@@ -9,6 +9,9 @@ int validanumero(){
     }while(numero<1 || numero>10);
     return numero;
 }
+void saludoprogramador(string nombre){
+    cout<<"Buenas tardes "<<nombre;
+}
 main(){
     int n = validanumero();
 
