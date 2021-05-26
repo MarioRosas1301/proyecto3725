@@ -17,8 +17,11 @@ void saludoprogramador(string nombre){
 }
 main(){
     int n = validanumero();
-    saludoprogramador("Juan");
     cout<<"El valor ingresado es: "<<n<<endl;
+    string nombre;
+    cout<<"Ingrese su nombre: ";
+    cin>>nombre;
+    saludoprogramador(nombre);
 
 
 }
