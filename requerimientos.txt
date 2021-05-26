@@ -1,2 +1,3 @@
 Se necesita crear un programa que permita realizar operaciones basicas de un numero
 Necesitamos crear un procedimiento para validar el numero entre 1 y 10(propuso in juan macias)
+Necesitamos formar grupos de 4 personas para designar tareas 
