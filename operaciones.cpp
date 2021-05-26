@@ -11,6 +11,7 @@ int validanumero(){
 }
 main(){
     int n = validanumero();
+    saludoprogramador("Juan");
 
 
 }
